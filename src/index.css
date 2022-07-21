@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-color: #e6e6d6;
+}
+
+.App{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.playerComponents{
+    display: block;
+    background-color: #473527;
+    padding: 50px;
+    border-radius: 16px;
+    box-shadow: inset -6px -6px 12px rgba(10,10,10,0.8), inset 6px 6px 12px rgba(218, 240, 227, 0.13);
+    width: 400px;
+
+}
+.playerComponents > h4 {
+    color:#e4e2de;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align:center;
+}
+
+.playerComponents >p {
+    color:#e4e2de;
+    font-size: 14px;
+    text-align:center;
+    font-weight: 400;
+}
+.playerComponentsDetails .details-img{
+    position: relative;
+    width: fit-content;
+    margin: 50px auto;
+}
+.playerComponentsDetails .details-img img{
+    display:block;
+    margin: 0px auto;
+    width:100%;
+    max-width: 250px;
+    border-radius:50%;
+    box-shadow: 6px 6px 12px rgba(10,10,10,0.8), -6px -6px 12px rgba(218, 240, 227, 0.13);
+}
+.playerComponentsDetails .details-title{
+    color:#aca921;
+    font-size: 28px;
+    text-shadow: 2px 2px 4px rgba(10,10,10,0.8), -2px -2px 4px rgba(218, 240, 227, 0.13);
+    text-align: center;
+    margin-bottom: 10px;
+}
+.playerComponentsDetails .details-artist {
+    color : #858319;
+    font-size:20px;
+    text-shadow: 2px 2px 4px rgba(10,10,10,0.8), -2px -2px 4px rgba(218, 240, 227, 0.13);
+    text-align: center;
+    margin-bottom: 20px;
+}
+.playerComponentsControls{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.playerComponentsControls .play-btn{
+    display:flex;
+    margin: 0 30px;
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 10px rgba(10,10,10,0.8), -4px -4px 10px rgba(218, 240, 227, 0.13), inset -4px -4px 10px rgba(10,10,10,0.8), inset 4px 4px 10px rgba(218, 240, 227, 0.13);
+    border: none;
+    outline: none;
+    background-color: #ffcc00b4;
+    color:#e4e2de;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.playerComponentsControls .skip-btn{
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color:#aaa;
+    font-size:18px;
+}
